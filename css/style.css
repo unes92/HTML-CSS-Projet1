@@ -1,0 +1,643 @@
+body,h1
+{
+
+margin:0;
+padding:0;
+}
+
+
+
+ a {
+
+  text-decoration: none;
+  color:#CBCBCB;
+
+
+}
+
+
+
+/**--------------------------------------------------------------------- header------------------------------------ **/
+header
+{
+    
+    background-color: #262626;
+    height: 80px;
+}
+
+#logo 
+{
+
+  float: left;
+}
+
+
+
+#logo img
+{
+
+    position: relative;
+    top:30px;
+    left:200px;
+}
+
+ul{  list-style-type: none;}
+
+
+/**------------------------------------------------------- nav------------------------------------------------------ **/
+
+nav ul
+{
+  
+    float: right;
+    
+    position:relative;
+  top:15px;
+  right:150px;
+}
+
+nav a {
+  font-family: "LatoWeb";
+  text-decoration: none;
+  color:#CBCBCB;
+
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+ nav ul li {float:left; padding:0 20px;}
+
+ 
+
+
+ /**-------------------------------------------------------- fin nav ------------------------------------------------**/
+
+ /**-------------------------------------------------------- fin header ------------------------------------------------**/
+
+
+.redcolor
+{
+  color:#FF6B63;
+}
+
+#graycolor
+{
+  background-color:#595959;
+}
+
+
+ /**-------------------------------------------------------- section 2 ------------------------------------------------**/
+
+#section2
+{
+  font-family: "LatoWebLight";
+    background-color:#2A2A2A;
+    height: 350px;
+    text-align: center;
+    color:#EBF1F1;
+   
+}
+
+
+#section2 h1
+{
+
+  padding-top:30px;
+font-size: 50px;
+font-weight: lighter;
+}
+
+
+#section2 p
+{
+
+  
+font-size: 30px;
+font-weight: lighter;
+}
+
+
+
+.section2_image2
+{
+
+  font-family: "LatoWeb";
+color: white;
+background-color:#FF6760;
+font-size:12px;
+padding:15px 40px;
+border-radius: 5px;
+}
+
+
+
+
+#bold
+{
+  font-family: "LatoWeb";
+  font-weight:bold;
+}
+
+
+
+
+.clear
+{
+clear: both;
+}
+
+
+ /**-------------------------------------------------------- fin section 2 ------------------------------------------------**/
+
+
+ /**--------------------------------------------------------  features ------------------------------------------------**/
+
+
+#features
+{
+    
+    background-color:#F8F8F8;
+    min-height: 300px;
+  
+    font-family: "LatoWeb";
+ 
+   
+}
+
+#features_contenair
+{
+    
+margin:0 17%;
+ padding-top: 3%;
+}
+#features aside
+{
+  text-align:center;
+  width:25%;
+  float:left;
+ 
+  color:#525252;
+ 
+}
+
+
+#features p
+{
+
+ font-size: 12px;
+ color:#4A4A4A;
+ width:80%;
+ margin:0 auto;
+line-height: 1.6;
+}
+
+
+ /**--------------------------------------------------------  fin features ------------------------------------------------**/
+
+
+
+
+ /**--------------------------------------------------------  work ------------------------------------------------**/
+
+
+#work
+{
+
+    text-align:center;
+    padding: 40px 0;
+    font-family: "LatoWeb";
+}
+
+#work h1
+{
+  color:#606060;
+  
+}
+#work p
+{
+  color:#C0C0C0;
+  font-size: 1.2em;
+}
+
+
+
+
+#work ul 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-left:38%;
+ 
+}
+
+#work ul li
+{
+  float:left;
+  padding:1px;
+}
+
+
+
+.work_buttons
+{
+
+font-family: "LatoWeb";
+color: white;
+background-color:#FF6760;
+font-size:10px;
+padding:8px 10px;
+border-radius: 3px;
+}
+
+ /**-------------------------------------------------------- fin work ------------------------------------------------**/
+
+
+ /**--------------------------------------------------------  gallery ------------------------------------------------**/
+
+#gallery
+{
+
+  width:1000px;
+  margin:10px auto;
+}
+
+
+
+ /**--------------------------------------------------------  fin gallery ------------------------------------------------**/
+
+
+
+  /**--------------------------------------------------------  footer ------------------------------------------------**/
+
+
+footer
+{
+    text-align: center;
+    
+}
+
+
+
+#firstpart 
+{
+background-color: #313131;
+ padding: 10px;
+
+ font-family: "LatoWeb";
+
+
+}
+
+
+#firstpart h2
+{
+
+font-family: "LatoWeb";
+font-weight: bold;
+color:#EBF1F1;
+
+}
+
+#firstpart p
+{
+
+
+color:#7A7A7A;
+
+}
+
+
+#adresse,#phone
+{
+font-size: 12px;
+color:#C0C0C0
+}
+
+#adresse img
+{
+position:relative;
+top:4px;
+left:4px;
+}
+
+#phone img
+{
+position:relative;
+top:4px;
+
+}
+
+#phone
+{
+margin-left:3%;
+}
+
+#firstpart ul 
+{
+  
+ /* padding-left:43%;
+  padding-bottom: 2px;*/
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#firstpart ul li
+{
+  float:left;
+  padding:2% 0px;
+}
+
+
+
+
+
+#secondpart
+{
+    background-color: #2C2C2C;
+ 
+    padding: 10px;
+   
+
+}
+
+#copyright
+{
+  font-family: "LatoWeb";
+  font-weight: bold;
+  font-size: 12px;
+  color:#878787;
+
+}
+
+
+  /**-------------------------------------------------------- fin  footer ------------------------------------------------**/
+
+
+
+
+
+
+
+
+
+
+/*                                       On screens that are 991px or less : tablets                            */
+
+@media screen and (max-width: 991px)    {
+  body {
+   // background-color: blue;
+  }
+
+
+  #logo img
+  {
+  
+      position: relative;
+      top:30px;
+      left:20%;
+  }
+
+
+
+
+  #gallery
+{
+
+  width:95%;
+  margin:10px auto;
+}
+
+
+
+
+nav ul
+{
+  
+    float: right;
+    
+    position:relative;
+  top:15px;
+  right:80px;
+}
+
+
+
+
+
+#work
+{
+
+    text-align:center;
+   // padding: 40px 0;
+    font-family: "LatoWeb";
+}
+
+#work p
+{
+  color:#C0C0C0;
+  font-size: 1.2em;
+}
+
+
+
+
+#work ul 
+{
+
+   //margin:0 25%;
+ 
+}
+
+#work ul li
+{
+  float:left;
+  padding:2px;
+}
+
+
+
+.work_buttons
+{
+
+  font-family: "LatoWeb";
+color: white;
+background-color:#FF6760;
+font-size:10px;
+padding:8px 15px;
+border-radius: 3px;
+}
+
+
+
+
+
+
+#firstpart ul li
+{
+  float:left;
+  padding:2% 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- On screens that are 767x or less  :  mobile ---------------------*/
+
+@media screen and (max-width: 767px) {
+  body {
+   // background-color: olive;
+  }
+
+  #logo img
+  {
+  
+      position: relative;
+      top:30px;
+      left:20%;
+  }
+  
+
+  
+  
+  nav ul
+  {
+    
+      float: left;
+      
+      position:relative;
+    top:15px;
+    right:15px;
+  }
+
+
+
+
+
+
+
+
+  
+  #features_contenair
+  {
+      
+  margin:0 10%;
+   padding-top: 3%;
+  }
+
+ 
+  
+  
+  #features p
+  {
+  
+   font-size: 10px;
+   color:#4A4A4A;
+  
+ text-align: justify;
+
+  }
+  
+  #features h4
+  {
+ font-size: 0.8em;
+   
+  }
+  
+
+
+
+  #work
+  {
+  
+      text-align:center;
+     /* padding: 40px 0;*/
+      font-family: "LatoWeb";
+  }
+  
+  #work p
+  {
+    color:#C0C0C0;
+    font-size: 0.9em;
+  }
+  
+  
+  
+  
+  #work ul 
+  {
+  
+    //margin:0 10%;
+    
+  }
+  
+  #work ul li
+  {
+    float:left;
+    padding:2px;
+  }
+  
+  
+  
+  .work_buttons
+  {
+  
+  font-family: "LatoWeb";
+  color: white;
+  background-color:#FF6760;
+  font-size:10px;
+  padding:8px 10px;
+  border-radius: 3px;
+  }
+  
+  
+
+  #gallery img
+  {
+    width:200px;
+    height: 200px;
+    
+  }
+
+  #gallery
+{
+
+  width:95%;
+  margin:10px auto;
+}
+
+
+
+
+
+#firstpart ul li
+{
+ // float:left;
+  padding:2% 0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
